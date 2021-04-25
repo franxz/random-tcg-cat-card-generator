@@ -1,13 +1,98 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f6dfeb;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 48px 0 32px;
+  text-align: center;
+  font-family: 'Jua', sans-serif;
+}
+
+/* cambiar */
+p {
+  max-width: 300px;
+  margin: 64px auto 0;
+  text-align: center;
+  font: 20px 'Jua', sans-serif;
+  color: #333;
+}
+
+
+/* CARD */
+.card {
+  margin: 0 auto;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 8px;
+  border: solid 8px #132c33;
+}
+
+.cardBg1 {
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+.cardBg2 {
+  background-color: #74EBD5;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+.cardBg3 {
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+/* Card header */
+.cardHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 0 8px;
+}
+.catLevelIcon {
+  font-size: 14px;
+  margin-right: 6px;
+  color: #132c33
+}
+.catName {
+  margin: 0;
+  margin-left: auto;
+  font: 28px 'Fredoka One', cursive;
+  color: #132c33;
+}
+
+/* Card image */
+.catImage {
+  border-radius: 5px;
+  border: solid 2px #132c33;
+}
+
+/* Card bottom part */
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.35);
+}
+
+.catPowerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+.bottomIcon {
+  font-size: 24px;
+}
+.catPower {
+  margin-left: 10px;
+  font: 24px 'Permanent Marker', cursive;
+  color: white;
+  text-shadow: 0 0 6px #fb3640;
 }
