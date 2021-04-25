@@ -15,6 +15,7 @@ This thing works thanks to:
 - Add form so you can modify the card content
 - Check and comment code
 - Check styles.css
+- Clean up project
 - Make it responsive
 - Add a loading indicator
 - Add download card feature (maybe as an image?)
