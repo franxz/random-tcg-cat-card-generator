@@ -10,9 +10,9 @@ This thing works thanks to:
 - [Random User Generator](https://randomuser.me/)
 
 ## TODO
-- Add link to footer
-- Change title and favicon
-- Add form so you can modify the card content
+- Style link to footer
+- Style form
+- Add a button to generate a random card
 - Check and comment code
 - Check styles.css
 - Clean up project
