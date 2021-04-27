@@ -1,7 +1,35 @@
+/* GENERAL */
 body {
   margin: 0;
   background-color: #f6dfeb;
 }
+
+h1,
+h3,
+button,
+p,
+label,
+input,
+select {
+  font-family: "Jua", sans-serif;
+  color: #132c33;
+}
+
+h1,
+h3,
+p {
+  text-align: center;
+}
+
+button,
+p,
+label,
+input,
+select {
+  font-size: 20px;
+}
+
+/* ESPECIFICO */
 
 .App {
   display: flex;
@@ -9,41 +37,61 @@ body {
 }
 
 h1 {
-  margin: 48px 0 32px;
-  text-align: center;
-  font-family: 'Jua', sans-serif;
+  margin: 32px 0 16px;
 }
 
-/* cambiar */
+h3 {
+  margin: 0 0 8px;
+  font-size: 22px;
+}
+
 p {
   max-width: 300px;
-  margin: 64px auto 0;
-  text-align: center;
-  font: 20px 'Jua', sans-serif;
-  color: #333;
+  margin: 0;
 }
 
+footer {
+  margin: 64px auto 16px;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: #325288;
+  transition: background-color 0.2s ease-in;
+}
+a:hover {
+  background-color: #eca3f5;
+}
+a:visited {
+  color: #325288;
+}
 
 /* CARD */
 .card {
-  margin: 0 auto;
-  display: inline-block;
+  margin: auto;
   padding: 12px;
   border-radius: 8px;
   border: solid 8px #132c33;
 }
 
 .cardBg1 {
-  background-color: #FBAB7E;
-  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
 }
 .cardBg2 {
-  background-color: #74EBD5;
-  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  background-color: #74ebd5;
+  background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
 }
 .cardBg3 {
-  background-color: #85FFBD;
-  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+}
+
+.catLevelIcon,
+.catName,
+.bottomIcon {
+  color: #132c33;
 }
 
 /* Card header */
@@ -56,17 +104,19 @@ p {
 .catLevelIcon {
   font-size: 14px;
   margin-right: 6px;
-  color: #132c33
 }
 .catName {
+  max-width: 160px;
+  overflow: hidden;
   margin: 0;
   margin-left: auto;
-  font: 28px 'Fredoka One', cursive;
-  color: #132c33;
+  font: 28px "Fredoka One", cursive;
 }
 
 /* Card image */
 .catImage {
+  width: 250px;
+  height: calc(250px + 30px / 2);
   border-radius: 5px;
   border: solid 2px #132c33;
 }
@@ -92,7 +142,58 @@ p {
 }
 .catPower {
   margin-left: 10px;
-  font: 24px 'Permanent Marker', cursive;
+  font: 24px "Permanent Marker", cursive;
   color: white;
   text-shadow: 0 0 6px #fb3640;
+}
+
+/* BOTONES */
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px auto 0;
+  width: calc(120px * 2 + 16px);
+}
+
+button {
+  width: 120px;
+  padding: 8px;
+  font: 20px "Jua", sans-serif;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  transition: opacity 0.15s ease-in;
+}
+button:hover {
+  transform: translateY(-1px);
+}
+button:active {
+  color: #126e82;
+}
+button:disabled {
+  opacity: 0.5;
+}
+
+/* FORM */
+.formContainer {
+  margin: 16px auto 0;
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.35);
+}
+
+input,
+select {
+  box-sizing: border-box;
+  max-width: 140px;
+}
+select {
+  width: 140px;
+}
+
+label {
+  text-align: right;
+  display: inline-block;
+  width: 110px;
+  margin: 12px 16px 0 0;
 }
