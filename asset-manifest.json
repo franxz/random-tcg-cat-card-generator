@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/random-tcg-cat-card-generator/static/css/main.6cac55e7.chunk.css",
-    "main.js": "/random-tcg-cat-card-generator/static/js/main.35121a4f.chunk.js",
-    "main.js.map": "/random-tcg-cat-card-generator/static/js/main.35121a4f.chunk.js.map",
+    "main.css": "/random-tcg-cat-card-generator/static/css/main.259fb640.chunk.css",
+    "main.js": "/random-tcg-cat-card-generator/static/js/main.4cb966cd.chunk.js",
+    "main.js.map": "/random-tcg-cat-card-generator/static/js/main.4cb966cd.chunk.js.map",
     "runtime-main.js": "/random-tcg-cat-card-generator/static/js/runtime-main.677e0b62.js",
     "runtime-main.js.map": "/random-tcg-cat-card-generator/static/js/runtime-main.677e0b62.js.map",
-    "static/js/2.eabb55c4.chunk.js": "/random-tcg-cat-card-generator/static/js/2.eabb55c4.chunk.js",
-    "static/js/2.eabb55c4.chunk.js.map": "/random-tcg-cat-card-generator/static/js/2.eabb55c4.chunk.js.map",
+    "static/js/2.30fba1b9.chunk.js": "/random-tcg-cat-card-generator/static/js/2.30fba1b9.chunk.js",
+    "static/js/2.30fba1b9.chunk.js.map": "/random-tcg-cat-card-generator/static/js/2.30fba1b9.chunk.js.map",
     "index.html": "/random-tcg-cat-card-generator/index.html",
-    "static/css/main.6cac55e7.chunk.css.map": "/random-tcg-cat-card-generator/static/css/main.6cac55e7.chunk.css.map",
-    "static/js/2.eabb55c4.chunk.js.LICENSE.txt": "/random-tcg-cat-card-generator/static/js/2.eabb55c4.chunk.js.LICENSE.txt"
+    "static/css/main.259fb640.chunk.css.map": "/random-tcg-cat-card-generator/static/css/main.259fb640.chunk.css.map",
+    "static/js/2.30fba1b9.chunk.js.LICENSE.txt": "/random-tcg-cat-card-generator/static/js/2.30fba1b9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.677e0b62.js",
-    "static/js/2.eabb55c4.chunk.js",
-    "static/css/main.6cac55e7.chunk.css",
-    "static/js/main.35121a4f.chunk.js"
+    "static/js/2.30fba1b9.chunk.js",
+    "static/css/main.259fb640.chunk.css",
+    "static/js/main.4cb966cd.chunk.js"
   ]
 }
